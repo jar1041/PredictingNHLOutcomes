@@ -11,7 +11,7 @@ Predicting NHL Game Outcomes 2021
 	NHL=read.table('Summary.csv',header=T,sep=',')
 	
 	NHL
-6.	Now that the required data is in R, open the “Final Model.R” file you downloaded at the beginning. Copy and paste the commands from this file into your R workspace. You are now ready to run the function.
+6.	Now that the required data is in R, go to File and then Open Script and select the “Final Model.R” file you downloaded at the beginning. Now copy and paste the commands from this file into your R workspace. You are now ready to run the function.
 7.	To run the function, use the following command (replace var1 and var2 are with the two teams you want predict the outcome for, see below for the full names of each team):
 
 	winner("var1","var2")
