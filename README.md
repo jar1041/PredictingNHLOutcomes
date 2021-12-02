@@ -7,10 +7,13 @@ Predicting NHL Game Outcomes 2021
 3.	Open R.
 4.	Before uploading the data into R, you need to change the directory of R. To do this on a Windows computer, go to File then Change Directory, then select the location on your computer where you downloaded the files (Desktop, Downloads, etc.). If you are using a Mac computer, go to Misc then Change Working Directory, then select the location on your computer where you downloaded the files (Desktop, Downloads, etc.).
 5.	In R type the following commands:
+
 	NHL=read.table('Summary.csv',header=T,sep=',')
+	
 	NHL
 6.	Now that the required data is in R, open the “Final Model.R” file you downloaded at the beginning. Copy and paste the commands from this file into your R workspace. You are now ready to run the function.
 7.	To run the function, use the following command (replace var1 and var2 are with the two teams you want predict the outcome for, see below for the full names of each team):
+
 	winner("var1","var2")
 8.	If you ran the function correctly, you should receive an output that tells you which team would win, or there is a potential for a tie. 
 
